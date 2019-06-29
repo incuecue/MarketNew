@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddPhone</title>
+</head>
+<body>
+    <div>
+        <h3>Добовление покупки</h3>
+
+        <br />
+
+        <form method="post" action="">
+            <input type="hidden" name="PhoneId" value="@ViewBag.id" />
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Название</td>
+                        <td><input type="text" name="Name" /></td>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td><input type="text" name="Producer" /></td>
+                    </tr>
+                    <tr>
+                        <td>Цена</td>
+                        <td><input type="text" name="Price" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Добавить телефон" /></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>>
+    </div>
+</body>
+</html>
